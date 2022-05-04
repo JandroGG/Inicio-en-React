@@ -1,0 +1,126 @@
+.header{
+  position: fixed;
+  text-align: center;
+  background-color: white;
+
+  top: 0;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+picture {
+  display: grid;
+  grid-template-areas: 
+  'foto foto foto'
+  'nombre nombre id';
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  margin-top: 10px;
+}
+
+img {
+  grid-area: foto;
+  box-shadow: 0 0 15px #999;
+  border-radius: 50%;
+  width: 100%;
+}
+
+img.disabled {
+  opacity: 0.3;
+}
+
+i {
+  align-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  min-height: 50px;
+  display: block;
+  width: 100%;
+}
+
+
+.avatar-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  border: 2px solid black;
+  border-radius: 10px;
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  
+
+  padding: 20px;
+
+  justify-content:left;
+  column-gap: 3%;
+
+}
+
+.id{
+  grid-area: id;
+  font-weight: bold;
+  color: black;
+}
+
+.nombre{
+  text-align: center;
+  grid-area: nombre;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+  width: 60%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 1px solid black;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.barra{
+  height: 10%;
+
+  width: 40px;
+  border: 1px solid black;
+} */
